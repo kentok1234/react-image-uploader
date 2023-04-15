@@ -16,10 +16,53 @@
   -webkit-text-size-adjust: 100%;
 }
 
+button, *[role=button] {
+  border-radius: 8px !important;
+  font-family: 'Noto Sans', sans-serif !important;
+  font-size: 12px !important;
+  text-transform: capitalize !important;
+}
+
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   margin: 0;
+}
+
+h2 {
+  color: #4F4F4F;
+  font-size: 18px;
+  font-family: inherit;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.describe {
+  font-size: 12px;
+  font-family: inherit;
+  color: #BDBDBD;
+}
+
+.annotation {
+  font-size: 10px;
+  font-family: inherit;
+  color: #828282;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
