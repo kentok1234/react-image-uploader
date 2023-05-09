@@ -44,7 +44,8 @@ function ImageDrop({ setFile }: StateFile) {
   const handleDrop = (event: React.DragEvent<HTMLDivElement>) => {
     event.preventDefault();
     const imageFiles = event.dataTransfer.files;
-    setFile(imageFiles[0]);
+
+    if (imageFiles[0].type.includes("image")) setFile(imageFiles[0]);
     setDrag(false);
   };
 

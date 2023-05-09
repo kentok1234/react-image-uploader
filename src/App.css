@@ -8,5 +8,14 @@
 
 .App {
   width: 100%;
+}
 
+.image {
+  display: block;
+  margin: 20px auto 20px auto;
+  width: 338px;
+  height: 224.4px;
+  border-radius: 12px;
+  object-fit: fill;
+  overflow: hidden;
 }
